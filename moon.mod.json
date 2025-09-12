@@ -14,5 +14,5 @@
     "open source",
     "fonts"
   ],
-  "description": "Experimental package to manipulate open source font data."
+  "description": "A collection of hard-coded font data in MoonBit with font names starting with 'e'."
 }
