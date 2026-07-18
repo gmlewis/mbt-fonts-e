@@ -2,7 +2,7 @@
 // For font license and info, see: https://github.com/gmlewis/go-fonts/
 
 ///|
-let glyphs : Map[String, @fonts.Glyph] = {
+let glyphs1 : Map[String, @fonts.Glyph] = {
   "!": {
     char: "!",
     horiz_adv_x: 299.0,
@@ -15993,6 +15993,10 @@ let glyphs : Map[String, @fonts.Glyph] = {
     xmax: 530.0,
     ymax: 670.0,
   },
+}
+
+///|
+let glyphs2 : Map[String, @fonts.Glyph] = {
   "῝": {
     char: "῝",
     horiz_adv_x: 367.0,
@@ -20734,6 +20738,9 @@ let glyphs : Map[String, @fonts.Glyph] = {
     ymax: 641.0,
   },
 }
+
+///|
+let glyphs : Map[String, @fonts.Glyph] = glyphs1.merge(glyphs2)
 
 ///|
 pub let font : @fonts.Font = {
